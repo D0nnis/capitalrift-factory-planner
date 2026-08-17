@@ -22,8 +22,15 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.
 
-  Recipe and item data comes from the Capital Rift wiki. Fan-made tool,
-  not affiliated with the game or its developer.
+  The MIT licence above covers the source code of this dashboard only.
+
+  Item icons, item names and recipe data belong to the makers of Capital Rift
+  and are used here to describe the game. They are NOT licensed under the MIT
+  licence and remain the property of their respective owners. Remove them if
+  you reuse this code for something else.
+
+  Fan-made tool. Not affiliated with, endorsed by or connected to Capital Rift,
+  its developer or its publisher.
 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -233,6 +240,10 @@ svg.ic{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:1.8;str
   <main id="view"></main>
 </div>
 <datalist id="itemNames"></datalist>
+
+<!-- Visitor counting: GoatCounter. No cookies, no personal data. -->
+<script data-goatcounter="https://yahikoxx.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 <script>
 /* ------------------------------------------------------------------
@@ -866,8 +877,11 @@ function aboutView(){
       <p style="margin:0 0 12px;color:var(--dim)">Use it, change it, build on it, pass it around. The one
         condition is that the copyright notice at the top of this file &mdash; the credit to
         ${esc(AUTHOR)} &mdash; stays in every copy and in anything built from it.</p>
-      <p style="margin:0;color:var(--faint);font-size:12.5px">The software comes as is, without warranty
-        of any kind. The full text sits in the comment block at the top of this file.</p>
+      <p style="margin:0 0 12px;color:var(--faint);font-size:12.5px">The software comes as is, without
+        warranty of any kind. The full text sits in the comment block at the top of this file.</p>
+      <p style="margin:0;color:var(--faint);font-size:12.5px">The licence covers the code of this dashboard.
+        Item icons, item names and recipe data belong to the makers of Capital Rift, are used here to
+        describe the game, and are not part of the MIT licence.</p>
     </div>`)
   + panel('var(--sky)','Game data','where the numbers come from',
     `<div class="pb">
