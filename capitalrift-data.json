@@ -1,0 +1,3910 @@
+{
+ "name": "Capital Rift wiki data",
+ "version": "2026-08-16",
+ "mode": "replace",
+ "items": [
+  {
+   "id": "armchair",
+   "name": "Armchair",
+   "price": 140.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "avocado",
+   "name": "Avocado",
+   "price": 0.3,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "avocado_sapling",
+   "name": "Avocado Sapling",
+   "price": 2.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "balaclava",
+   "name": "Wool Balaclava",
+   "price": 22.0,
+   "category": "",
+   "soldFrom": "Clothing Rack"
+  },
+  {
+   "id": "banana",
+   "name": "Banana",
+   "price": 0.15,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "banana_sapling",
+   "name": "Banana Sapling",
+   "price": 1.5,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "bar_stool",
+   "name": "Bar Stool",
+   "price": 38.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "barrel",
+   "name": "Barrel",
+   "price": 60.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "batter",
+   "name": "Crepe Batter",
+   "price": 0.2,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "battery",
+   "name": "Battery Pack",
+   "price": 330.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "battery_paste",
+   "name": "Battery Paste",
+   "price": 90.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "bean_seeds",
+   "name": "Bean Seeds",
+   "price": 0.25,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "beanie",
+   "name": "Wool Beanie",
+   "price": 18.0,
+   "category": "",
+   "soldFrom": "Clothing Rack"
+  },
+  {
+   "id": "beans",
+   "name": "Beans",
+   "price": 0.18,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "bed",
+   "name": "Bed",
+   "price": 230.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "beef",
+   "name": "Beef",
+   "price": 2.0,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "bistro_chair",
+   "name": "Bistro Chair",
+   "price": 40.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "bobble_hat",
+   "name": "Bobble Hat",
+   "price": 28.0,
+   "category": "",
+   "soldFrom": "Clothing Rack"
+  },
+  {
+   "id": "bookshelf",
+   "name": "Bookshelf",
+   "price": 120.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "booth_bench",
+   "name": "Booth Bench",
+   "price": 210.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "buns",
+   "name": "Buns",
+   "price": 0.3,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "burger_bun",
+   "name": "Burger Bun",
+   "price": 0.3,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "burger_bundle",
+   "name": "Burger Cart Bundle",
+   "price": 2.05,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "burrito_bundle",
+   "name": "Burrito Cart Bundle",
+   "price": 1.43,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "cabinet",
+   "name": "Storage Cabinet",
+   "price": 110.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "cafe_table",
+   "name": "Cafe Table",
+   "price": 85.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "cafe_table_square",
+   "name": "Square Cafe Table",
+   "price": 90.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "candle",
+   "name": "Candle",
+   "price": 4.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "cardigan",
+   "name": "Knit Cardigan",
+   "price": 78.0,
+   "category": "",
+   "soldFrom": "Clothing Rack"
+  },
+  {
+   "id": "carpentry_bench",
+   "name": "Carpentry Bench",
+   "price": 700.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "chair",
+   "name": "Chair",
+   "price": 45.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "cheese",
+   "name": "Cheddar",
+   "price": 0.25,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "chemical_plant",
+   "name": "Chemical Plant",
+   "price": 1800.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "chicken",
+   "name": "Chicken",
+   "price": 8.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "chicken_meat",
+   "name": "Chicken Meat",
+   "price": 1.2,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "chip_fab",
+   "name": "Chip Fab",
+   "price": 2400.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "circuit_board",
+   "name": "Circuit Board",
+   "price": 30.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "clothing_rack",
+   "name": "Clothing Rack",
+   "price": 320.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "computer",
+   "name": "Computer",
+   "price": 3700.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "computer_case",
+   "name": "Computer Case",
+   "price": 85.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "concrete",
+   "name": "Concrete",
+   "price": 12.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "copper_bar",
+   "name": "Copper Bar",
+   "price": 24.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "copper_ore",
+   "name": "Copper Ore",
+   "price": 10.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "copper_wire",
+   "name": "Copper Wire",
+   "price": 3.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "corn",
+   "name": "Corn",
+   "price": 0.25,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "corn_seeds",
+   "name": "Corn Seed",
+   "price": 0.15,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "cow",
+   "name": "Cow",
+   "price": 60.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "cpu",
+   "name": "CPU",
+   "price": 1900.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "crate",
+   "name": "Storage Crate",
+   "price": 60.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "crepe_bundle",
+   "name": "Crepe Cart Bundle",
+   "price": 1.13,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "cucumber",
+   "name": "Cucumber",
+   "price": 0.1,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "cucumber_seeds",
+   "name": "Cucumber Seeds",
+   "price": 0.15,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "cutting_board",
+   "name": "Cutting Board",
+   "price": 5.5,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "delivery_space",
+   "name": "Delivery Space",
+   "price": 150.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "desk",
+   "name": "Desk",
+   "price": 130.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "diner_chair",
+   "name": "Diner Chair",
+   "price": 55.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "display_platform",
+   "name": "Display Platform",
+   "price": 1500.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "door_double",
+   "name": "Double Door",
+   "price": 95.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "door_glass",
+   "name": "Glass Door",
+   "price": 110.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "door_single",
+   "name": "Single Door",
+   "price": 60.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "dough",
+   "name": "Pizza Dough",
+   "price": 0.35,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "dresser",
+   "name": "Dresser",
+   "price": 170.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "electronics_bench",
+   "name": "Electronics Bench",
+   "price": 1200.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "fabric",
+   "name": "Fabric",
+   "price": 9.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "filing_cabinet",
+   "name": "Filing Cabinet",
+   "price": 150.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "fish",
+   "name": "Cod Fillet",
+   "price": 1.0,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "fishchips_bundle",
+   "name": "Fish & Chips Cart Bundle",
+   "price": 1.7,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "floor_sign",
+   "name": "A-Frame Sign",
+   "price": 45.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "food_cart",
+   "name": "Food Cart",
+   "price": 500.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "franks",
+   "name": "Beef Franks",
+   "price": 0.55,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "fryer_oil",
+   "name": "Fryer Oil",
+   "price": 3.5,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "furnace",
+   "name": "Furnace",
+   "price": 1400.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "garage_roller",
+   "name": "Garage Door",
+   "price": 180.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "glass",
+   "name": "Glass",
+   "price": 5.2,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "glass_counter",
+   "name": "Glass Display Counter",
+   "price": 420.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "grain_silo",
+   "name": "Grain Silo",
+   "price": 2400.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "guac",
+   "name": "Guacamole",
+   "price": 0.3,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "hazelnut",
+   "name": "Hazelnuts",
+   "price": 0.25,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "hazelnut_sapling",
+   "name": "Hazelnut Sapling",
+   "price": 2.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "hotdog_bundle",
+   "name": "Hot Dog Cart Bundle",
+   "price": 1.63,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "iron_bar",
+   "name": "Iron Bar",
+   "price": 20.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "iron_ore",
+   "name": "Iron Ore",
+   "price": 8.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "ketchup",
+   "name": "Ketchup",
+   "price": 0.05,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "kitchen",
+   "name": "Kitchen",
+   "price": 850.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "lamp",
+   "name": "Floor Lamp",
+   "price": 50.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "lantern",
+   "name": "Lantern",
+   "price": 48.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "lettuce",
+   "name": "Lettuce",
+   "price": 0.08,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "lettuce_seeds",
+   "name": "Lettuce Seeds",
+   "price": 0.06,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "lithium_ore",
+   "name": "Lithium Ore",
+   "price": 120.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "loom",
+   "name": "Loom",
+   "price": 450.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "lumber_stack",
+   "name": "Lumber Stack",
+   "price": 420.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "machine_parts",
+   "name": "Machine Parts",
+   "price": 42.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "machine_shop",
+   "name": "Machine Shop",
+   "price": 2600.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "mannequin",
+   "name": "Mannequin",
+   "price": 110.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "manufacturing_press",
+   "name": "Manufacturing Press",
+   "price": 1900.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "menu_stand",
+   "name": "Menu Stand",
+   "price": 45.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "metal_shop",
+   "name": "Metal Shop",
+   "price": 1600.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "microchip",
+   "name": "Microchip",
+   "price": 40.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "mill",
+   "name": "Mill",
+   "price": 800.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "mirror",
+   "name": "Wall Mirror",
+   "price": 58.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "mop_cart",
+   "name": "Mop Cart",
+   "price": 180.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "motherboard",
+   "name": "Motherboard",
+   "price": 820.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "mozzarella",
+   "name": "Mozzarella",
+   "price": 0.4,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "mushroom",
+   "name": "Mushroom",
+   "price": 0.15,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "mushy_peas",
+   "name": "Mushy Peas",
+   "price": 0.12,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "mustard",
+   "name": "Mustard",
+   "price": 0.05,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "mustard_seeds",
+   "name": "Mustard Seeds",
+   "price": 0.08,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "mutton",
+   "name": "Mutton",
+   "price": 1.4,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "nails",
+   "name": "Nails",
+   "price": 1.5,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "nori",
+   "name": "Nori",
+   "price": 0.1,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "nutella",
+   "name": "Hazelnut spread",
+   "price": 0.3,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "office_chair",
+   "name": "Office Chair",
+   "price": 120.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "oil_drum",
+   "name": "Liquid Drum",
+   "price": 70.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "onion_seeds",
+   "name": "Onion Seeds",
+   "price": 0.1,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "onions",
+   "name": "Onions",
+   "price": 0.1,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "pallet_jack",
+   "name": "Pallet Jack",
+   "price": 220.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "pallet_rack",
+   "name": "Pallet Rack",
+   "price": 700.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "parking_spot",
+   "name": "Parking Spot",
+   "price": 45.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "patty",
+   "name": "Beef Patty",
+   "price": 0.9,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "pea_seeds",
+   "name": "Pea Seeds",
+   "price": 0.15,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "peas",
+   "name": "Peas",
+   "price": 0.1,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "pepperoni",
+   "name": "Pepperoni",
+   "price": 0.3,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "picture_frame",
+   "name": "Picture Frame",
+   "price": 19.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "pig",
+   "name": "Pig",
+   "price": 35.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "pizza_bundle",
+   "name": "Pizza Cart Bundle",
+   "price": 1.61,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "plank",
+   "name": "Planks",
+   "price": 2.2,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "plant",
+   "name": "Potted Plant",
+   "price": 38.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "planter",
+   "name": "Planter Box",
+   "price": 65.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "polysilicon",
+   "name": "Polysilicon",
+   "price": 62.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "pork",
+   "name": "Pork",
+   "price": 1.5,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "potato",
+   "name": "Potato",
+   "price": 0.2,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "potato_seeds",
+   "name": "Seed Potatoes",
+   "price": 0.35,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "propane",
+   "name": "Propane Canister",
+   "price": 5.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "psu",
+   "name": "Power Supply",
+   "price": 90.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "quartz",
+   "name": "Quartz",
+   "price": 9.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "rack",
+   "name": "Storage Rack",
+   "price": 140.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "ram",
+   "name": "RAM Stick",
+   "price": 80.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "relish",
+   "name": "Relish",
+   "price": 0.08,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "rice",
+   "name": "Sushi Rice",
+   "price": 0.15,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "rice_seeds",
+   "name": "Rice Seed",
+   "price": 0.2,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "rope_barrier",
+   "name": "Rope Barrier",
+   "price": 60.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "rug",
+   "name": "Rug",
+   "price": 65.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "salmon",
+   "name": "Salmon",
+   "price": 1.2,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "salsa",
+   "name": "Salsa",
+   "price": 0.08,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "sawmill",
+   "name": "Sawmill",
+   "price": 900.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "scarf",
+   "name": "Knit Scarf",
+   "price": 15.0,
+   "category": "",
+   "soldFrom": "Clothing Rack"
+  },
+  {
+   "id": "screen",
+   "name": "Monitor",
+   "price": 240.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "sheep",
+   "name": "Sheep",
+   "price": 30.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "shelving_unit",
+   "name": "Shelving Unit",
+   "price": 240.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "shipping_container",
+   "name": "Shipping Container",
+   "price": 1500.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "shop_bench",
+   "name": "Shop Bench",
+   "price": 75.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "shop_freezer",
+   "name": "Shop Freezer",
+   "price": 380.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "shop_register",
+   "name": "Cash Register",
+   "price": 520.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "shop_shelf",
+   "name": "Shop Shelf",
+   "price": 240.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "silicon_wafer",
+   "name": "Silicon Wafer",
+   "price": 46.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "slippers",
+   "name": "Wool Slippers",
+   "price": 32.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "sneakers",
+   "name": "Cheap Sneakers",
+   "price": 120.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "sofa",
+   "name": "Sofa",
+   "price": 190.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "soy",
+   "name": "Soy Sauce",
+   "price": 0.04,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "soybean",
+   "name": "Soybeans",
+   "price": 0.1,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "soybean_seeds",
+   "name": "Soybean Seed",
+   "price": 0.18,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "stanchion",
+   "name": "Queue Stanchion",
+   "price": 35.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "station_fryer",
+   "name": "Fryer Station",
+   "price": 460.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "station_grill",
+   "name": "Grill Station",
+   "price": 420.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "station_oven",
+   "name": "Oven Station",
+   "price": 520.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "station_pan",
+   "name": "Pan Station",
+   "price": 320.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "station_pot",
+   "name": "Pot Station",
+   "price": 340.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "station_prep",
+   "name": "Prep Counter",
+   "price": 260.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "steel_sheet",
+   "name": "Steel Sheet",
+   "price": 12.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "stockroom_rack",
+   "name": "Stockroom Rack",
+   "price": 410.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "stool",
+   "name": "Stool",
+   "price": 28.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "storage_locker",
+   "name": "Storage Lockers",
+   "price": 210.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "strawberry",
+   "name": "Strawberry",
+   "price": 0.25,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "strawberry_seeds",
+   "name": "Strawberry Seeds",
+   "price": 0.3,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "sunflower",
+   "name": "Sunflower",
+   "price": 0.18,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "sunflower_seeds",
+   "name": "Sunflower Seeds",
+   "price": 0.18,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "survey_array",
+   "name": "Survey Array",
+   "price": 2900.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "survey_tower",
+   "name": "Survey Tower",
+   "price": 1250.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "survey_tripod",
+   "name": "Survey Tripod",
+   "price": 220.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "sushi_bundle",
+   "name": "Sushi Cart Bundle",
+   "price": 1.78,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "sweater",
+   "name": "Wool Sweater",
+   "price": 60.0,
+   "category": "",
+   "soldFrom": "Clothing Rack"
+  },
+  {
+   "id": "table",
+   "name": "Table",
+   "price": 95.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "table_long",
+   "name": "Long Table",
+   "price": 210.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "tartar",
+   "name": "Tartar",
+   "price": 0.06,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "tomato",
+   "name": "Tomato",
+   "price": 0.12,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "tomato_seeds",
+   "name": "Tomato Seeds",
+   "price": 0.12,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "tortilla",
+   "name": "Tortilla",
+   "price": 0.2,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "toy_blocks",
+   "name": "Toy Blocks",
+   "price": 16.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "tree_sapling",
+   "name": "Tree Sapling",
+   "price": 6.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "trough",
+   "name": "Feed Trough",
+   "price": 55.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "tv",
+   "name": "TV Console",
+   "price": 160.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "vase",
+   "name": "Ceramic Vase",
+   "price": 42.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "vinegar",
+   "name": "Vinegar",
+   "price": 0.04,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "wall_clock",
+   "name": "Wall Clock",
+   "price": 78.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "wardrobe",
+   "name": "Wardrobe",
+   "price": 170.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "wasabi",
+   "name": "Wasabi",
+   "price": 0.06,
+   "category": "",
+   "soldFrom": "Shop Freezer"
+  },
+  {
+   "id": "wasabi_seeds",
+   "name": "Wasabi Seeds",
+   "price": 0.08,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "wheat",
+   "name": "Wheat",
+   "price": 0.12,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "wheat_seeds",
+   "name": "Wheat Seed",
+   "price": 0.15,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "window_curtain",
+   "name": "Curtain Wall",
+   "price": 260.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "window_office",
+   "name": "Office Window",
+   "price": 120.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "window_ribbon",
+   "name": "Ribbon Window",
+   "price": 150.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "window_standard",
+   "name": "Standard Window",
+   "price": 40.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "window_tall",
+   "name": "Tall Window",
+   "price": 55.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "window_wide",
+   "name": "Wide Window",
+   "price": 65.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "wire",
+   "name": "Wire",
+   "price": 2.1,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "wood",
+   "name": "Lumber",
+   "price": 6.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "wood_shelf",
+   "name": "Wooden Shop Shelf",
+   "price": 150.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "wool",
+   "name": "Wool",
+   "price": 4.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "workbench",
+   "name": "Workbench",
+   "price": 260.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  }
+ ],
+ "recipes": [
+  {
+   "name": "Build a TV console",
+   "station": "carpentry_bench",
+   "product": "tv",
+   "batch": 1.0,
+   "perMin": 0.03,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 12.0
+    },
+    {
+     "item": "nails",
+     "qty": 10.0
+    }
+   ]
+  },
+  {
+   "name": "Build a bed",
+   "station": "carpentry_bench",
+   "product": "bed",
+   "batch": 1.0,
+   "perMin": 0.08,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 30.0
+    },
+    {
+     "item": "fabric",
+     "qty": 12.0
+    },
+    {
+     "item": "nails",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Build a bookshelf",
+   "station": "carpentry_bench",
+   "product": "bookshelf",
+   "batch": 1.0,
+   "perMin": 0.12,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 22.0
+    },
+    {
+     "item": "nails",
+     "qty": 28.0
+    }
+   ]
+  },
+  {
+   "name": "Build a cafe table",
+   "station": "carpentry_bench",
+   "product": "cafe_table",
+   "batch": 1.0,
+   "perMin": 0.12,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 14.0
+    },
+    {
+     "item": "nails",
+     "qty": 16.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Build a chair",
+   "station": "carpentry_bench",
+   "product": "chair",
+   "batch": 1.0,
+   "perMin": 0.35,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 8.0
+    },
+    {
+     "item": "nails",
+     "qty": 12.0
+    }
+   ]
+  },
+  {
+   "name": "Build a desk",
+   "station": "carpentry_bench",
+   "product": "desk",
+   "batch": 1.0,
+   "perMin": 0.11,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 24.0
+    },
+    {
+     "item": "nails",
+     "qty": 30.0
+    }
+   ]
+  },
+  {
+   "name": "Build a diner chair",
+   "station": "carpentry_bench",
+   "product": "diner_chair",
+   "batch": 1.0,
+   "perMin": 0.25,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 6.0
+    },
+    {
+     "item": "nails",
+     "qty": 8.0
+    },
+    {
+     "item": "fabric",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Build a double door",
+   "station": "carpentry_bench",
+   "product": "door_double",
+   "batch": 1.0,
+   "perMin": 0.12,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 16.0
+    },
+    {
+     "item": "nails",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Build a dresser",
+   "station": "carpentry_bench",
+   "product": "dresser",
+   "batch": 1.0,
+   "perMin": 0.04,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 16.0
+    },
+    {
+     "item": "nails",
+     "qty": 12.0
+    }
+   ]
+  },
+  {
+   "name": "Build a feed trough",
+   "station": "carpentry_bench",
+   "product": "trough",
+   "batch": 1.0,
+   "perMin": 0.25,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 12.0
+    },
+    {
+     "item": "nails",
+     "qty": 10.0
+    }
+   ]
+  },
+  {
+   "name": "Build a long table",
+   "station": "carpentry_bench",
+   "product": "table_long",
+   "batch": 1.0,
+   "perMin": 0.05,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 40.0
+    },
+    {
+     "item": "nails",
+     "qty": 44.0
+    }
+   ]
+  },
+  {
+   "name": "Build a lumber stack",
+   "station": "carpentry_bench",
+   "product": "lumber_stack",
+   "batch": 1.0,
+   "perMin": 0.032,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 80.0
+    },
+    {
+     "item": "nails",
+     "qty": 90.0
+    }
+   ]
+  },
+  {
+   "name": "Build a mannequin",
+   "station": "carpentry_bench",
+   "product": "mannequin",
+   "batch": 1.0,
+   "perMin": 0.15,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 6.0
+    },
+    {
+     "item": "fabric",
+     "qty": 8.0
+    },
+    {
+     "item": "nails",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Build a menu stand",
+   "station": "carpentry_bench",
+   "product": "menu_stand",
+   "batch": 1.0,
+   "perMin": 0.2,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 8.0
+    },
+    {
+     "item": "nails",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Build a planter box",
+   "station": "carpentry_bench",
+   "product": "planter",
+   "batch": 1.0,
+   "perMin": 0.2,
+   "inputs": [
+    {
+     "item": "concrete",
+     "qty": 2.0
+    },
+    {
+     "item": "tree_sapling",
+     "qty": 2.0
+    },
+    {
+     "item": "plank",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Build a prep counter",
+   "station": "carpentry_bench",
+   "product": "station_prep",
+   "batch": 1.0,
+   "perMin": 0.03,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 30.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 10.0
+    },
+    {
+     "item": "nails",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Build a shop bench",
+   "station": "carpentry_bench",
+   "product": "shop_bench",
+   "batch": 1.0,
+   "perMin": 0.25,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 20.0
+    },
+    {
+     "item": "nails",
+     "qty": 14.0
+    }
+   ]
+  },
+  {
+   "name": "Build a single door",
+   "station": "carpentry_bench",
+   "product": "door_single",
+   "batch": 1.0,
+   "perMin": 0.17,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 10.0
+    },
+    {
+     "item": "nails",
+     "qty": 12.0
+    }
+   ]
+  },
+  {
+   "name": "Build a sofa",
+   "station": "carpentry_bench",
+   "product": "sofa",
+   "batch": 1.0,
+   "perMin": 0.06,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 20.0
+    },
+    {
+     "item": "fabric",
+     "qty": 10.0
+    },
+    {
+     "item": "nails",
+     "qty": 15.0
+    }
+   ]
+  },
+  {
+   "name": "Build a square cafe table",
+   "station": "carpentry_bench",
+   "product": "cafe_table_square",
+   "batch": 1.0,
+   "perMin": 0.11,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 16.0
+    },
+    {
+     "item": "nails",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Build a standard window",
+   "station": "carpentry_bench",
+   "product": "window_standard",
+   "batch": 1.0,
+   "perMin": 0.27,
+   "inputs": [
+    {
+     "item": "glass",
+     "qty": 4.0
+    },
+    {
+     "item": "plank",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Build a stool",
+   "station": "carpentry_bench",
+   "product": "stool",
+   "batch": 1.0,
+   "perMin": 0.6,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 5.0
+    },
+    {
+     "item": "nails",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Build a storage crate",
+   "station": "carpentry_bench",
+   "product": "crate",
+   "batch": 1.0,
+   "perMin": 0.35,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 12.0
+    },
+    {
+     "item": "nails",
+     "qty": 16.0
+    }
+   ]
+  },
+  {
+   "name": "Build a table",
+   "station": "carpentry_bench",
+   "product": "table",
+   "batch": 1.0,
+   "perMin": 0.18,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 18.0
+    },
+    {
+     "item": "nails",
+     "qty": 24.0
+    }
+   ]
+  },
+  {
+   "name": "Build a tall window",
+   "station": "carpentry_bench",
+   "product": "window_tall",
+   "batch": 1.0,
+   "perMin": 0.23,
+   "inputs": [
+    {
+     "item": "glass",
+     "qty": 6.0
+    },
+    {
+     "item": "plank",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Build a wardrobe",
+   "station": "carpentry_bench",
+   "product": "wardrobe",
+   "batch": 1.0,
+   "perMin": 0.09,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 32.0
+    },
+    {
+     "item": "nails",
+     "qty": 40.0
+    }
+   ]
+  },
+  {
+   "name": "Build a wide window",
+   "station": "carpentry_bench",
+   "product": "window_wide",
+   "batch": 1.0,
+   "perMin": 0.19,
+   "inputs": [
+    {
+     "item": "glass",
+     "qty": 7.0
+    },
+    {
+     "item": "plank",
+     "qty": 5.0
+    }
+   ]
+  },
+  {
+   "name": "Build a wooden shop shelf",
+   "station": "carpentry_bench",
+   "product": "wood_shelf",
+   "batch": 1.0,
+   "perMin": 0.08,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 36.0
+    },
+    {
+     "item": "nails",
+     "qty": 26.0
+    }
+   ]
+  },
+  {
+   "name": "Build a workbench",
+   "station": "carpentry_bench",
+   "product": "workbench",
+   "batch": 1.0,
+   "perMin": 0.028,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 20.0
+    },
+    {
+     "item": "nails",
+     "qty": 14.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Build an A-frame sign",
+   "station": "carpentry_bench",
+   "product": "floor_sign",
+   "batch": 1.0,
+   "perMin": 0.3,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 12.0
+    },
+    {
+     "item": "nails",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Build an armchair",
+   "station": "carpentry_bench",
+   "product": "armchair",
+   "batch": 1.0,
+   "perMin": 0.1,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 10.0
+    },
+    {
+     "item": "fabric",
+     "qty": 8.0
+    },
+    {
+     "item": "nails",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Cooper a barrel",
+   "station": "carpentry_bench",
+   "product": "barrel",
+   "batch": 1.0,
+   "perMin": 0.14,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 8.0
+    },
+    {
+     "item": "nails",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Frame a picture",
+   "station": "carpentry_bench",
+   "product": "picture_frame",
+   "batch": 1.0,
+   "perMin": 0.45,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 3.0
+    },
+    {
+     "item": "glass",
+     "qty": 1.0
+    },
+    {
+     "item": "nails",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Pot a plant",
+   "station": "carpentry_bench",
+   "product": "plant",
+   "batch": 1.0,
+   "perMin": 0.35,
+   "inputs": [
+    {
+     "item": "concrete",
+     "qty": 1.0
+    },
+    {
+     "item": "tree_sapling",
+     "qty": 2.0
+    },
+    {
+     "item": "plank",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Upholster a booth bench",
+   "station": "carpentry_bench",
+   "product": "booth_bench",
+   "batch": 1.0,
+   "perMin": 0.06,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 16.0
+    },
+    {
+     "item": "nails",
+     "qty": 20.0
+    },
+    {
+     "item": "fabric",
+     "qty": 12.0
+    }
+   ]
+  },
+  {
+   "name": "Weave a rug",
+   "station": "carpentry_bench",
+   "product": "rug",
+   "batch": 1.0,
+   "perMin": 0.3,
+   "inputs": [
+    {
+     "item": "fabric",
+     "qty": 6.0
+    },
+    {
+     "item": "plank",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Cook battery paste",
+   "station": "chemical_plant",
+   "product": "battery_paste",
+   "batch": 2.0,
+   "perMin": 0.2,
+   "inputs": [
+    {
+     "item": "lithium_ore",
+     "qty": 1.0
+    },
+    {
+     "item": "quartz",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Refine polysilicon",
+   "station": "chemical_plant",
+   "product": "polysilicon",
+   "batch": 1.0,
+   "perMin": 0.35,
+   "inputs": [
+    {
+     "item": "quartz",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Cut microchips",
+   "station": "chip_fab",
+   "product": "microchip",
+   "batch": 2.0,
+   "perMin": 0.24,
+   "inputs": [
+    {
+     "item": "silicon_wafer",
+     "qty": 1.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Package RAM sticks",
+   "station": "chip_fab",
+   "product": "ram",
+   "batch": 2.0,
+   "perMin": 0.1,
+   "inputs": [
+    {
+     "item": "silicon_wafer",
+     "qty": 2.0
+    },
+    {
+     "item": "circuit_board",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Package a CPU",
+   "station": "chip_fab",
+   "product": "cpu",
+   "batch": 1.0,
+   "perMin": 0.006,
+   "inputs": [
+    {
+     "item": "silicon_wafer",
+     "qty": 30.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 10.0
+    }
+   ]
+  },
+  {
+   "name": "Pull silicon wafers",
+   "station": "chip_fab",
+   "product": "silicon_wafer",
+   "batch": 3.0,
+   "perMin": 0.6,
+   "inputs": [
+    {
+     "item": "polysilicon",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a computer",
+   "station": "electronics_bench",
+   "product": "computer",
+   "batch": 1.0,
+   "perMin": 0.01,
+   "inputs": [
+    {
+     "item": "motherboard",
+     "qty": 1.0
+    },
+    {
+     "item": "cpu",
+     "qty": 1.0
+    },
+    {
+     "item": "ram",
+     "qty": 2.0
+    },
+    {
+     "item": "psu",
+     "qty": 1.0
+    },
+    {
+     "item": "computer_case",
+     "qty": 1.0
+    },
+    {
+     "item": "screen",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a lantern",
+   "station": "electronics_bench",
+   "product": "lantern",
+   "batch": 1.0,
+   "perMin": 0.15,
+   "inputs": [
+    {
+     "item": "glass",
+     "qty": 3.0
+    },
+    {
+     "item": "wire",
+     "qty": 4.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a monitor",
+   "station": "electronics_bench",
+   "product": "screen",
+   "batch": 1.0,
+   "perMin": 0.03,
+   "inputs": [
+    {
+     "item": "glass",
+     "qty": 8.0
+    },
+    {
+     "item": "circuit_board",
+     "qty": 2.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a motherboard",
+   "station": "electronics_bench",
+   "product": "motherboard",
+   "batch": 1.0,
+   "perMin": 0.014,
+   "inputs": [
+    {
+     "item": "circuit_board",
+     "qty": 2.0
+    },
+    {
+     "item": "microchip",
+     "qty": 12.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 12.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a wall clock",
+   "station": "electronics_bench",
+   "product": "wall_clock",
+   "batch": 1.0,
+   "perMin": 0.12,
+   "inputs": [
+    {
+     "item": "machine_parts",
+     "qty": 1.0
+    },
+    {
+     "item": "glass",
+     "qty": 2.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Build a cash register",
+   "station": "electronics_bench",
+   "product": "shop_register",
+   "batch": 1.0,
+   "perMin": 0.027,
+   "inputs": [
+    {
+     "item": "machine_parts",
+     "qty": 6.0
+    },
+    {
+     "item": "wire",
+     "qty": 20.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Build a floor lamp",
+   "station": "electronics_bench",
+   "product": "lamp",
+   "batch": 1.0,
+   "perMin": 0.2,
+   "inputs": [
+    {
+     "item": "glass",
+     "qty": 2.0
+    },
+    {
+     "item": "wire",
+     "qty": 5.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Build a power supply",
+   "station": "electronics_bench",
+   "product": "psu",
+   "batch": 1.0,
+   "perMin": 0.06,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 2.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 6.0
+    },
+    {
+     "item": "wire",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Build a shop freezer",
+   "station": "electronics_bench",
+   "product": "shop_freezer",
+   "batch": 1.0,
+   "perMin": 0.057,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 14.0
+    },
+    {
+     "item": "glass",
+     "qty": 8.0
+    },
+    {
+     "item": "wire",
+     "qty": 12.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Build a survey array",
+   "station": "electronics_bench",
+   "product": "survey_array",
+   "batch": 1.0,
+   "perMin": 0.004,
+   "inputs": [
+    {
+     "item": "circuit_board",
+     "qty": 10.0
+    },
+    {
+     "item": "microchip",
+     "qty": 20.0
+    },
+    {
+     "item": "battery",
+     "qty": 2.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Build a survey tower",
+   "station": "electronics_bench",
+   "product": "survey_tower",
+   "batch": 1.0,
+   "perMin": 0.006,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 30.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 40.0
+    },
+    {
+     "item": "glass",
+     "qty": 10.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Etch a circuit board",
+   "station": "electronics_bench",
+   "product": "circuit_board",
+   "batch": 1.0,
+   "perMin": 0.25,
+   "inputs": [
+    {
+     "item": "copper_wire",
+     "qty": 3.0
+    },
+    {
+     "item": "glass",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Pack a battery",
+   "station": "electronics_bench",
+   "product": "battery",
+   "batch": 1.0,
+   "perMin": 0.02,
+   "inputs": [
+    {
+     "item": "battery_paste",
+     "qty": 2.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 2.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Fire a vase",
+   "station": "furnace",
+   "product": "vase",
+   "batch": 1.0,
+   "perMin": 0.3,
+   "inputs": [
+    {
+     "item": "concrete",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Melt glass",
+   "station": "furnace",
+   "product": "glass",
+   "batch": 3.0,
+   "perMin": 1.5,
+   "inputs": [
+    {
+     "item": "concrete",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Smelt copper bars",
+   "station": "furnace",
+   "product": "copper_bar",
+   "batch": 1.0,
+   "perMin": 0.5,
+   "inputs": [
+    {
+     "item": "copper_ore",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Smelt iron bars",
+   "station": "furnace",
+   "product": "iron_bar",
+   "batch": 1.0,
+   "perMin": 0.5,
+   "inputs": [
+    {
+     "item": "iron_ore",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Bake buns",
+   "station": "kitchen",
+   "product": "buns",
+   "batch": 10.0,
+   "perMin": 6.7,
+   "inputs": [
+    {
+     "item": "dough",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Bake burger buns",
+   "station": "kitchen",
+   "product": "burger_bun",
+   "batch": 10.0,
+   "perMin": 6.7,
+   "inputs": [
+    {
+     "item": "dough",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Brew soy sauce",
+   "station": "kitchen",
+   "product": "soy",
+   "batch": 30.0,
+   "perMin": 50.1,
+   "inputs": [
+    {
+     "item": "soybean",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Cook ketchup",
+   "station": "kitchen",
+   "product": "ketchup",
+   "batch": 30.0,
+   "perMin": 55.5,
+   "inputs": [
+    {
+     "item": "tomato",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Cook salsa",
+   "station": "kitchen",
+   "product": "salsa",
+   "batch": 25.0,
+   "perMin": 46.25,
+   "inputs": [
+    {
+     "item": "tomato",
+     "qty": 8.0
+    },
+    {
+     "item": "onions",
+     "qty": 5.0
+    }
+   ]
+  },
+  {
+   "name": "Cure pepperoni",
+   "station": "kitchen",
+   "product": "pepperoni",
+   "batch": 8.0,
+   "perMin": 7.2,
+   "inputs": [
+    {
+     "item": "pork",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Ferment vinegar",
+   "station": "kitchen",
+   "product": "vinegar",
+   "batch": 45.0,
+   "perMin": 75.15,
+   "inputs": [
+    {
+     "item": "wheat",
+     "qty": 10.0
+    }
+   ]
+  },
+  {
+   "name": "Grind beef franks",
+   "station": "kitchen",
+   "product": "franks",
+   "batch": 8.0,
+   "perMin": 7.2,
+   "inputs": [
+    {
+     "item": "beef",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Grind hazelnut spread",
+   "station": "kitchen",
+   "product": "nutella",
+   "batch": 7.0,
+   "perMin": 5.74,
+   "inputs": [
+    {
+     "item": "hazelnut",
+     "qty": 5.0
+    }
+   ]
+  },
+  {
+   "name": "Mash guacamole",
+   "station": "kitchen",
+   "product": "guac",
+   "batch": 6.0,
+   "perMin": 10.02,
+   "inputs": [
+    {
+     "item": "avocado",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Mash mushy peas",
+   "station": "kitchen",
+   "product": "mushy_peas",
+   "batch": 10.0,
+   "perMin": 16.7,
+   "inputs": [
+    {
+     "item": "peas",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Pickle relish",
+   "station": "kitchen",
+   "product": "relish",
+   "batch": 20.0,
+   "perMin": 33.4,
+   "inputs": [
+    {
+     "item": "cucumber",
+     "qty": 10.0
+    }
+   ]
+  },
+  {
+   "name": "Press beef patties",
+   "station": "kitchen",
+   "product": "patty",
+   "batch": 4.0,
+   "perMin": 3.6,
+   "inputs": [
+    {
+     "item": "beef",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Press tortillas",
+   "station": "kitchen",
+   "product": "tortilla",
+   "batch": 12.0,
+   "perMin": 14.76,
+   "inputs": [
+    {
+     "item": "dough",
+     "qty": 5.0
+    }
+   ]
+  },
+  {
+   "name": "Whisk tartar sauce",
+   "station": "kitchen",
+   "product": "tartar",
+   "batch": 20.0,
+   "perMin": 33.4,
+   "inputs": [
+    {
+     "item": "cucumber",
+     "qty": 6.0
+    },
+    {
+     "item": "vinegar",
+     "qty": 5.0
+    }
+   ]
+  },
+  {
+   "name": "Knit a balaclava",
+   "station": "loom",
+   "product": "balaclava",
+   "batch": 1.0,
+   "perMin": 0.25,
+   "inputs": [
+    {
+     "item": "fabric",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Knit a beanie",
+   "station": "loom",
+   "product": "beanie",
+   "batch": 1.0,
+   "perMin": 0.5,
+   "inputs": [
+    {
+     "item": "wool",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Knit a bobble hat",
+   "station": "loom",
+   "product": "bobble_hat",
+   "batch": 1.0,
+   "perMin": 0.3,
+   "inputs": [
+    {
+     "item": "wool",
+     "qty": 4.0
+    },
+    {
+     "item": "fabric",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Knit a cardigan",
+   "station": "loom",
+   "product": "cardigan",
+   "batch": 1.0,
+   "perMin": 0.14,
+   "inputs": [
+    {
+     "item": "fabric",
+     "qty": 7.0
+    },
+    {
+     "item": "wool",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Knit a scarf",
+   "station": "loom",
+   "product": "scarf",
+   "batch": 1.0,
+   "perMin": 0.3,
+   "inputs": [
+    {
+     "item": "wool",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Knit a sweater",
+   "station": "loom",
+   "product": "sweater",
+   "batch": 1.0,
+   "perMin": 0.15,
+   "inputs": [
+    {
+     "item": "fabric",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Weave fabric",
+   "station": "loom",
+   "product": "fabric",
+   "batch": 1.0,
+   "perMin": 1.0,
+   "inputs": [
+    {
+     "item": "wool",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Weave slippers",
+   "station": "loom",
+   "product": "slippers",
+   "batch": 1.0,
+   "perMin": 0.2,
+   "inputs": [
+    {
+     "item": "fabric",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Build a carpentry bench",
+   "station": "machine_shop",
+   "product": "carpentry_bench",
+   "batch": 1.0,
+   "perMin": 0.025,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 90.0
+    },
+    {
+     "item": "nails",
+     "qty": 100.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 5.0
+    }
+   ]
+  },
+  {
+   "name": "Build a chemical plant",
+   "station": "machine_shop",
+   "product": "chemical_plant",
+   "batch": 1.0,
+   "perMin": 0.004,
+   "inputs": [
+    {
+     "item": "machine_parts",
+     "qty": 20.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 30.0
+    },
+    {
+     "item": "glass",
+     "qty": 10.0
+    }
+   ]
+  },
+  {
+   "name": "Build a chip fab",
+   "station": "machine_shop",
+   "product": "chip_fab",
+   "batch": 1.0,
+   "perMin": 0.0035,
+   "inputs": [
+    {
+     "item": "machine_parts",
+     "qty": 30.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 20.0
+    },
+    {
+     "item": "glass",
+     "qty": 30.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 40.0
+    }
+   ]
+  },
+  {
+   "name": "Build a furnace",
+   "station": "machine_shop",
+   "product": "furnace",
+   "batch": 1.0,
+   "perMin": 0.024,
+   "inputs": [
+    {
+     "item": "iron_ore",
+     "qty": 100.0
+    },
+    {
+     "item": "concrete",
+     "qty": 36.0
+    }
+   ]
+  },
+  {
+   "name": "Build a kitchen",
+   "station": "machine_shop",
+   "product": "kitchen",
+   "batch": 1.0,
+   "perMin": 0.02,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 45.0
+    },
+    {
+     "item": "wire",
+     "qty": 30.0
+    },
+    {
+     "item": "glass",
+     "qty": 12.0
+    }
+   ]
+  },
+  {
+   "name": "Build a loom",
+   "station": "machine_shop",
+   "product": "loom",
+   "batch": 1.0,
+   "perMin": 0.025,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 60.0
+    },
+    {
+     "item": "wire",
+     "qty": 30.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Build a machine shop",
+   "station": "machine_shop",
+   "product": "machine_shop",
+   "batch": 1.0,
+   "perMin": 0.021,
+   "inputs": [
+    {
+     "item": "machine_parts",
+     "qty": 45.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 40.0
+    },
+    {
+     "item": "plank",
+     "qty": 30.0
+    }
+   ]
+  },
+  {
+   "name": "Build a manufacturing press",
+   "station": "machine_shop",
+   "product": "manufacturing_press",
+   "batch": 1.0,
+   "perMin": 0.04,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 85.0
+    },
+    {
+     "item": "plank",
+     "qty": 50.0
+    }
+   ]
+  },
+  {
+   "name": "Build a metal shop",
+   "station": "machine_shop",
+   "product": "metal_shop",
+   "batch": 1.0,
+   "perMin": 0.015,
+   "inputs": [
+    {
+     "item": "machine_parts",
+     "qty": 24.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 30.0
+    }
+   ]
+  },
+  {
+   "name": "Build a mill",
+   "station": "machine_shop",
+   "product": "mill",
+   "batch": 1.0,
+   "perMin": 0.03,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 20.0
+    },
+    {
+     "item": "plank",
+     "qty": 60.0
+    },
+    {
+     "item": "concrete",
+     "qty": 12.0
+    }
+   ]
+  },
+  {
+   "name": "Build a sawmill",
+   "station": "machine_shop",
+   "product": "sawmill",
+   "batch": 1.0,
+   "perMin": 0.028,
+   "inputs": [
+    {
+     "item": "iron_ore",
+     "qty": 55.0
+    },
+    {
+     "item": "wood",
+     "qty": 55.0
+    }
+   ]
+  },
+  {
+   "name": "Build a survey tripod",
+   "station": "machine_shop",
+   "product": "survey_tripod",
+   "batch": 1.0,
+   "perMin": 0.03,
+   "inputs": [
+    {
+     "item": "plank",
+     "qty": 15.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 6.0
+    },
+    {
+     "item": "glass",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Build an electronics bench",
+   "station": "machine_shop",
+   "product": "electronics_bench",
+   "batch": 1.0,
+   "perMin": 0.016,
+   "inputs": [
+    {
+     "item": "machine_parts",
+     "qty": 18.0
+    },
+    {
+     "item": "wire",
+     "qty": 60.0
+    },
+    {
+     "item": "glass",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Draw wire",
+   "station": "manufacturing_press",
+   "product": "wire",
+   "batch": 12.0,
+   "perMin": 6.0,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Fold a computer case",
+   "station": "manufacturing_press",
+   "product": "computer_case",
+   "batch": 1.0,
+   "perMin": 0.07,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 5.0
+    }
+   ]
+  },
+  {
+   "name": "Machine parts",
+   "station": "manufacturing_press",
+   "product": "machine_parts",
+   "batch": 1.0,
+   "perMin": 0.4,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 2.0
+    },
+    {
+     "item": "wire",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Press a wall mirror",
+   "station": "manufacturing_press",
+   "product": "mirror",
+   "batch": 1.0,
+   "perMin": 0.15,
+   "inputs": [
+    {
+     "item": "glass",
+     "qty": 4.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Press nails",
+   "station": "manufacturing_press",
+   "product": "nails",
+   "batch": 20.0,
+   "perMin": 8.0,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Roll steel sheet",
+   "station": "manufacturing_press",
+   "product": "steel_sheet",
+   "batch": 2.0,
+   "perMin": 1.0,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a mop cart",
+   "station": "metal_shop",
+   "product": "mop_cart",
+   "batch": 1.0,
+   "perMin": 0.04,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 8.0
+    },
+    {
+     "item": "wire",
+     "qty": 4.0
+    },
+    {
+     "item": "plank",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a pallet jack",
+   "station": "metal_shop",
+   "product": "pallet_jack",
+   "batch": 1.0,
+   "perMin": 0.03,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 5.0
+    },
+    {
+     "item": "wire",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble an office chair",
+   "station": "metal_shop",
+   "product": "office_chair",
+   "batch": 1.0,
+   "perMin": 0.08,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 2.0
+    },
+    {
+     "item": "wire",
+     "qty": 2.0
+    },
+    {
+     "item": "fabric",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Bend a bar stool",
+   "station": "metal_shop",
+   "product": "bar_stool",
+   "batch": 1.0,
+   "perMin": 0.3,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 2.0
+    },
+    {
+     "item": "wire",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Bend a bistro chair",
+   "station": "metal_shop",
+   "product": "bistro_chair",
+   "batch": 1.0,
+   "perMin": 0.3,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 2.0
+    },
+    {
+     "item": "wire",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Build a clothing rack",
+   "station": "metal_shop",
+   "product": "clothing_rack",
+   "batch": 1.0,
+   "perMin": 0.05,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 17.0
+    },
+    {
+     "item": "wire",
+     "qty": 12.0
+    },
+    {
+     "item": "plank",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Build a delivery space",
+   "station": "metal_shop",
+   "product": "delivery_space",
+   "batch": 1.0,
+   "perMin": 0.13,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 5.0
+    },
+    {
+     "item": "plank",
+     "qty": 12.0
+    },
+    {
+     "item": "concrete",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Build a display platform",
+   "station": "metal_shop",
+   "product": "display_platform",
+   "batch": 1.0,
+   "perMin": 0.01,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 70.0
+    },
+    {
+     "item": "wire",
+     "qty": 36.0
+    },
+    {
+     "item": "plank",
+     "qty": 44.0
+    },
+    {
+     "item": "glass",
+     "qty": 24.0
+    }
+   ]
+  },
+  {
+   "name": "Build a filing cabinet",
+   "station": "metal_shop",
+   "product": "filing_cabinet",
+   "batch": 1.0,
+   "perMin": 0.055,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 5.0
+    },
+    {
+     "item": "wire",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Build a garage door",
+   "station": "metal_shop",
+   "product": "garage_roller",
+   "batch": 1.0,
+   "perMin": 0.075,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 10.0
+    },
+    {
+     "item": "wire",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Build a glass counter",
+   "station": "metal_shop",
+   "product": "glass_counter",
+   "batch": 1.0,
+   "perMin": 0.035,
+   "inputs": [
+    {
+     "item": "glass",
+     "qty": 32.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 12.0
+    },
+    {
+     "item": "wire",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Build a glass door",
+   "station": "metal_shop",
+   "product": "door_glass",
+   "batch": 1.0,
+   "perMin": 0.11,
+   "inputs": [
+    {
+     "item": "glass",
+     "qty": 8.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Build a grain silo",
+   "station": "metal_shop",
+   "product": "grain_silo",
+   "batch": 1.0,
+   "perMin": 0.0057,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 140.0
+    },
+    {
+     "item": "wire",
+     "qty": 50.0
+    }
+   ]
+  },
+  {
+   "name": "Build a pallet rack",
+   "station": "metal_shop",
+   "product": "pallet_rack",
+   "batch": 1.0,
+   "perMin": 0.022,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 38.0
+    },
+    {
+     "item": "wire",
+     "qty": 20.0
+    },
+    {
+     "item": "plank",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Build a parking spot",
+   "station": "metal_shop",
+   "product": "parking_spot",
+   "batch": 1.0,
+   "perMin": 0.38,
+   "inputs": [
+    {
+     "item": "concrete",
+     "qty": 2.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Build a queue stanchion",
+   "station": "metal_shop",
+   "product": "stanchion",
+   "batch": 1.0,
+   "perMin": 0.25,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 2.0
+    },
+    {
+     "item": "wire",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Build a rope barrier",
+   "station": "metal_shop",
+   "product": "rope_barrier",
+   "batch": 1.0,
+   "perMin": 0.2,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 3.0
+    },
+    {
+     "item": "wire",
+     "qty": 3.0
+    },
+    {
+     "item": "fabric",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Build a shelving unit",
+   "station": "metal_shop",
+   "product": "shelving_unit",
+   "batch": 1.0,
+   "perMin": 0.055,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 13.0
+    },
+    {
+     "item": "wire",
+     "qty": 10.0
+    }
+   ]
+  },
+  {
+   "name": "Build a shipping container",
+   "station": "metal_shop",
+   "product": "shipping_container",
+   "batch": 1.0,
+   "perMin": 0.009,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 85.0
+    },
+    {
+     "item": "wire",
+     "qty": 40.0
+    }
+   ]
+  },
+  {
+   "name": "Build a shop shelf",
+   "station": "metal_shop",
+   "product": "shop_shelf",
+   "batch": 1.0,
+   "perMin": 0.06,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 12.0
+    },
+    {
+     "item": "wire",
+     "qty": 12.0
+    },
+    {
+     "item": "plank",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Build a stockroom rack",
+   "station": "metal_shop",
+   "product": "stockroom_rack",
+   "batch": 1.0,
+   "perMin": 0.032,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 22.0
+    },
+    {
+     "item": "wire",
+     "qty": 18.0
+    }
+   ]
+  },
+  {
+   "name": "Build a storage cabinet",
+   "station": "metal_shop",
+   "product": "cabinet",
+   "batch": 1.0,
+   "perMin": 0.12,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 6.0
+    },
+    {
+     "item": "wire",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Build a storage rack",
+   "station": "metal_shop",
+   "product": "rack",
+   "batch": 1.0,
+   "perMin": 0.09,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 7.0
+    },
+    {
+     "item": "wire",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Build storage lockers",
+   "station": "metal_shop",
+   "product": "storage_locker",
+   "batch": 1.0,
+   "perMin": 0.06,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 11.0
+    },
+    {
+     "item": "wire",
+     "qty": 9.0
+    }
+   ]
+  },
+  {
+   "name": "Draw copper wire",
+   "station": "metal_shop",
+   "product": "copper_wire",
+   "batch": 10.0,
+   "perMin": 4.0,
+   "inputs": [
+    {
+     "item": "copper_bar",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Fabricate a fryer station",
+   "station": "metal_shop",
+   "product": "station_fryer",
+   "batch": 1.0,
+   "perMin": 0.018,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 24.0
+    },
+    {
+     "item": "wire",
+     "qty": 12.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Fabricate a grill station",
+   "station": "metal_shop",
+   "product": "station_grill",
+   "batch": 1.0,
+   "perMin": 0.02,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 22.0
+    },
+    {
+     "item": "wire",
+     "qty": 10.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Fabricate a pan station",
+   "station": "metal_shop",
+   "product": "station_pan",
+   "batch": 1.0,
+   "perMin": 0.02,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 17.0
+    },
+    {
+     "item": "wire",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Fabricate a pot station",
+   "station": "metal_shop",
+   "product": "station_pot",
+   "batch": 1.0,
+   "perMin": 0.02,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 18.0
+    },
+    {
+     "item": "wire",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Fabricate an oven station",
+   "station": "metal_shop",
+   "product": "station_oven",
+   "batch": 1.0,
+   "perMin": 0.018,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 26.0
+    },
+    {
+     "item": "wire",
+     "qty": 10.0
+    },
+    {
+     "item": "glass",
+     "qty": 8.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Roll a liquid drum",
+   "station": "metal_shop",
+   "product": "oil_drum",
+   "batch": 1.0,
+   "perMin": 0.2,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Mill batter",
+   "station": "mill",
+   "product": "batter",
+   "batch": 16.0,
+   "perMin": 16.0,
+   "inputs": [
+    {
+     "item": "wheat",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Mill dough",
+   "station": "mill",
+   "product": "dough",
+   "batch": 10.0,
+   "perMin": 7.2,
+   "inputs": [
+    {
+     "item": "wheat",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Pour candles",
+   "station": "mill",
+   "product": "candle",
+   "batch": 2.0,
+   "perMin": 1.0,
+   "inputs": [
+    {
+     "item": "sunflower",
+     "qty": 12.0
+    },
+    {
+     "item": "wool",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Press fryer oil",
+   "station": "mill",
+   "product": "fryer_oil",
+   "batch": 1.0,
+   "perMin": 0.38,
+   "inputs": [
+    {
+     "item": "sunflower",
+     "qty": 12.0
+    }
+   ]
+  },
+  {
+   "name": "Cut cutting boards",
+   "station": "sawmill",
+   "product": "cutting_board",
+   "batch": 4.0,
+   "perMin": 1.6,
+   "inputs": [
+    {
+     "item": "wood",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Saw planks",
+   "station": "sawmill",
+   "product": "plank",
+   "batch": 4.0,
+   "perMin": 3.2,
+   "inputs": [
+    {
+     "item": "wood",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Saw toy blocks",
+   "station": "sawmill",
+   "product": "toy_blocks",
+   "batch": 1.0,
+   "perMin": 0.45,
+   "inputs": [
+    {
+     "item": "wood",
+     "qty": 2.0
+    }
+   ]
+  }
+ ]
+}
