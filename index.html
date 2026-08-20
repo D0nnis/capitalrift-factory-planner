@@ -130,7 +130,8 @@ input[type=number]{width:104px;text-align:right}
 textarea{width:100%;min-height:74px;resize:vertical;font-size:12px;line-height:1.45;word-break:break-all}
 select:focus-visible,input:focus-visible,button:focus-visible,textarea:focus-visible{outline:2px solid var(--sky);outline-offset:1px}
 .btn{background:var(--panel2);color:var(--tx);border:1px solid var(--line2);border-radius:6px;
-  padding:8px 13px;font-size:12.5px;cursor:pointer;display:inline-flex;align-items:center;gap:7px}
+  padding:8px 13px;font-size:12.5px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;
+  text-decoration:none;font-family:inherit;line-height:1.2}
 .btn:hover{border-color:var(--dim)}
 .btn.mint{color:var(--mint);border-color:var(--mint-dim)} .btn.mint:hover{background:#12291f}
 .btn.warn{color:var(--salmon);border-color:#6b2a26} .btn.warn:hover{background:#2a1513}
@@ -388,6 +389,9 @@ const TRASH ='<svg class="ic" viewBox="0 0 24 24"><path d="M5 7h14"/><path d="M9
 const SWAP  ='<svg class="ic" viewBox="0 0 24 24"><path d="M4 8h13l-3-3"/><path d="M20 16H7l3 3"/></svg>';
 const CHEV  ='<svg class="ic chev" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>';
 const EYEOFF='<svg class="ic" viewBox="0 0 24 24"><path d="M3 3l18 18"/><path d="M10.6 6.2A9 9 0 0112 6c5 0 9 6 9 6a15 15 0 01-3.1 3.6"/><path d="M6.3 7.8A15 15 0 003 12s4 6 9 6a8.7 8.7 0 003.9-.9"/><path d="M9.9 9.9a3 3 0 004.2 4.2"/></svg>';
+const EXT_ZIP = 'extension/capitalrift-planner-firefox.zip';
+const EXT_SRC = 'https://github.com/D0nnis/capitalrift-factory-planner/tree/main/extension';
+const DOWN  ='<svg class="ic" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="M8 11l4 4 4-4"/><path d="M4 17v3a1 1 0 001 1h14a1 1 0 001-1v-3"/></svg>';
 const EYE   ='<svg class="ic" viewBox="0 0 24 24"><path d="M3 12s4-6 9-6 9 6 9 6-4 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.6"/></svg>';
 const isMade = p => !!recipeOf(p.item);
 function targetOf(p){
@@ -500,7 +504,7 @@ function sidebar(){
   document.getElementById('navData').innerHTML=
     `<button data-tab="import" class="${tab==='import'?'on':''}">
       <svg class="ic" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="M8 11l4 4 4-4"/><path d="M4 17v3a1 1 0 001 1h14a1 1 0 001-1v-3"/></svg>
-      <span class="nmtx">From the game</span>
+      <span class="nmtx">Extension</span>
       <span class="cnt">${Object.values(imported).filter(f=>f.machineRecipe).length||''}</span></button>
      <button data-tab="recipes" class="${tab==='recipes'?'on':''}">
       <svg class="ic" viewBox="0 0 24 24"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h10"/></svg>
@@ -746,20 +750,38 @@ function importView(){
             Last read ${esc(new Date(extUpdated).toLocaleString())}</p>`:''}
           ${impMsg?`<div class="msg ${impMsg.k}">${esc(impMsg.t)}</div>`:''}
         </div>`)
-    : panel('var(--sky)','Extension not found','Firefox add-on required',
+    : panel('var(--sky)','Extension not installed','for Firefox',
         `<div class="pb">
-          <p style="margin:0 0 12px">Reading your factory needs the companion extension. The game only
-            answers your own browser, so a web page on its own cannot ask for your buildings &mdash;
-            an extension can.</p>
-          <p style="margin:0 0 12px">It is in the <strong>extension</strong> folder of the project.
-            Load it in Firefox under <code>about:debugging</code> &rarr; This Firefox &rarr;
-            Load Temporary Add-on, then sign in to Capital Rift and press <strong>Read my factory</strong>
-            in its toolbar popup.</p>
-          <p style="margin:0;color:var(--faint);font-size:12.5px">It only reads your own account, never
-            writes to the game, and nothing leaves your browser. Until it is installed you can enter your
+          <p style="margin:0 0 14px">Capital Rift only answers your own browser, so this page cannot ask
+            for your buildings by itself. A small add-on can &mdash; it reads the machines you own and
+            hands them over, so you never type a number twice.</p>
+          <div class="row">
+            <a class="btn mint" href="${EXT_ZIP}" download>${DOWN} Download the extension</a>
+            <a class="btn" href="${EXT_SRC}" target="_blank" rel="noopener">View the source</a>
+          </div>
+          <p style="margin:14px 0 0;color:var(--faint);font-size:12.5px">Read-only, your own account only,
+            nothing leaves your browser. Without it everything still works &mdash; you just enter your
             productions by hand on the Productions page.</p>
         </div>`);
-  if(!total) return ext;
+  const gstep=(n,title,text)=>`<div class="gstep"><div class="gnum">${n}</div>
+    <div class="gbody"><div class="gtitle">${title}</div><div class="gtext">${text}</div></div></div>`;
+  const install=panel('var(--amber)','Installing it','about two minutes',
+    `<div class="pb">
+      ${gstep(1,'Download and unzip','The download above is a zip. Unpack it somewhere you will keep it &mdash; '
+        + 'Firefox loads the folder from disk, so deleting it later removes the add-on.')}
+      ${gstep(2,'Open the add-on page','Type <code>about:debugging</code> into the address bar, then pick '
+        + '<strong>This Firefox</strong> in the sidebar.')}
+      ${gstep(3,'Load it','Press <strong>Load Temporary Add-on…</strong> and choose the '
+        + '<code>manifest.json</code> inside the unpacked folder. A small icon appears in the toolbar.')}
+      ${gstep(4,'Sign in to Capital Rift','Open the game in another tab and log in. That is enough for the '
+        + 'add-on to recognise which player you are &mdash; it picks the id out of the game\'s own request.')}
+      ${gstep(5,'Read your factory','Click the toolbar icon, press <strong>Read my factory</strong>. It walks '
+        + 'your land holdings, fetches every building and counts the machines. Then come back here.')}
+      <p style="margin:16px 0 0;color:var(--faint);font-size:12.5px">
+        A temporary add-on disappears when Firefox restarts &mdash; loading it again takes ten seconds.
+        A permanent install needs a signature from Mozilla, which is on the list.</p>
+    </div>`);
+  if(!total) return ext + (extSeen ? '' : install);
   const rows=keys.map(k=>{
     const known=!!recipeOf(k);
     const st=[...g[k].stations].map(s=>nm(s)).join(', ');
@@ -822,16 +844,28 @@ function guideView(){
     `<div class="pb">
       <p style="margin:0 0 6px;font-size:15px">This dashboard keeps one running ledger of your factory.
         You tell it what you produce, it works out what that consumes and where you fall short.</p>
-      <p style="margin:0;color:var(--dim)">Nothing talks to the game &mdash; you type in what you built,
-        and everything is stored in this browser.</p></div>`)
+      <p style="margin:0;color:var(--dim)">Everything is stored in this browser. Nothing is uploaded.</p>
+    </div>`)
+  + panel('var(--amber)','Start here: the extension','optional, but it saves all the typing',
+    `<div class="pb">
+      <p style="margin:0 0 14px">You can enter your factory by hand &mdash; but there is a Firefox add-on
+        that reads it straight out of the game. It counts the machines you own and which recipe each one
+        runs, so the numbers are right without you counting furnaces.</p>
+      <div class="row">
+        <a class="btn mint" href="${EXT_ZIP}" download>${DOWN} Download the extension</a>
+        <button class="btn" data-tab="import">How to install it</button>
+      </div>
+      <p style="margin:14px 0 0;color:var(--faint);font-size:12.5px">Read-only, your own account only.
+        It never writes to the game and never sends anything anywhere.</p>
+    </div>`)
   + panel('var(--sky)','The pages','in the order you will use them',
     `<div class="pb">
-      ${step(1,'Productions','Enter everything your factory makes, one line per item and a target per minute — ore from your mines, bars from your furnaces, finished goods. Several mines of the same ore sit under one heading; open it to edit them or add another with <strong>+ Source</strong>. Fill in how many machines you actually own so the dashboard knows what really flows.',mProds)}
+      ${step(1,'Productions','Enter everything your factory makes, one line per item and a target per minute — ore from your mines, bars from your furnaces, finished goods. Several mines of the same ore sit under one heading; open it to edit them or add another with <strong>+ Source</strong>. Fill in how many machines you actually own so the dashboard knows what really flows. With the extension installed this page fills itself.',mProds)}
       ${step(2,'Balance','The heart of it: for every item, how much you make, how much your other productions consume, and the difference. Red means you want more than you make. <strong>At target</strong> shows the factory once everything is built, <strong>As built</strong> what your current machines manage, with a percentage of your target.',mBalance)}
       ${step(3,'Machines','Every station added up across all productions — what the targets need, what you own, what is missing. Machines are rounded up per recipe first, because one machine runs one recipe.',mMach)}
       ${step(4,'Planner','Thinking about a new product? Pick it here with a rate. Each step is checked against the spare capacity you already have — anything covered is marked and its ingredients disappear from the list. What is left can be added to your productions with one click.',mPlan)}
-      ${step(5,'Data file','Recipes and items come from a data file. When the game adds something, load a new file here and everything else follows. You can also export the current one.','')}
-      ${step(6,'Recipes','A searchable list of every recipe in the data — product, station, rate and ingredients. Reference only.','')}
+      ${step(5,'Extension','Reads your buildings straight out of Capital Rift and fills in the machines for you. Download and installation instructions live on that page.','')}
+      ${step(6,'Recipes','A searchable list of every recipe — product, station, rate and ingredients. The recipe data is kept alongside this page and updates for everyone at once when the game changes.','')}
       ${step(7,'Settings','Small comforts: turn off the delete confirmation, hide the hourly columns, tighten the rows, choose which balance view opens first.',mSet)}
     </div>`)
   + panel('var(--amber)','Two things worth knowing','',
