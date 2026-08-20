@@ -261,6 +261,7 @@ let IT={}, RC=[], byOut={}, craftable=[], PACK=null, PACKICONS=null;
 let S = { prods:[], items:{}, recipes:[] };
 let tab='balance', dlg=null, msg=null, addDraft={item:'',rate:'',label:''};
 let opened={}, recipeFilter='';
+let imported={}, impMsg=null, extBuildings=0, extUpdated=null, extBusy=false;
 let planDraft={item:'', rate:''};
 const DEFOPT={confirmDelete:true, showHourly:true, autoExpand:true, defaultMode:'target',
               compactRows:false};
@@ -479,7 +480,11 @@ function sidebar(){
      <button data-tab="planner" class="${tab==='planner'?'on':''}">${ic.plan}
       <span class="nmtx">Planner</span></button>`;
   document.getElementById('navData').innerHTML=
-    `<button data-tab="data" class="${tab==='data'?'on':''}">
+    `<button data-tab="import" class="${tab==='import'?'on':''}">
+      <svg class="ic" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="M8 11l4 4 4-4"/><path d="M4 17v3a1 1 0 001 1h14a1 1 0 001-1v-3"/></svg>
+      <span class="nmtx">From the game</span>
+      <span class="cnt">${Object.values(imported).filter(f=>f.machineRecipe).length||''}</span></button>
+     <button data-tab="data" class="${tab==='data'?'on':''}">
       <svg class="ic" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
       <span class="nmtx">Data file</span><span class="cnt">${PACK?'custom':'built-in'}</span></button>
      <button data-tab="recipes" class="${tab==='recipes'?'on':''}">
@@ -644,6 +649,123 @@ function prodsView(){
       </tr></thead><tbody>${body}</tbody></table></div>`,
     'Each item is one line with its totals. Open it to see and edit the single sources behind it — several mines, several workshops. Target sets how many machines you need, Output is what the machines you own actually make.');
   return add+list;
+}
+
+/* ---------- import from the game ---------- */
+function impSummary(){
+  const g={};
+  Object.values(imported).forEach(f=>{
+    if(!f.machineRecipe) return;
+    const k=f.machineRecipe;
+    (g[k] ||= {count:0, stations:new Set()});
+    g[k].count++; g[k].stations.add(f.itemId);
+  });
+  return g;
+}
+function addImport(text){
+  let data;
+  try{ data=JSON.parse(text); }
+  catch(e){ impMsg={k:'err',t:'That is not valid JSON. Copy the whole response, starting with {'}; return; }
+  const list = Array.isArray(data) ? data : (data.furniture || data.items || null);
+  if(!Array.isArray(list)){ impMsg={k:'err',t:'No "furniture" list found in that response.'}; return; }
+  let added=0, dupes=0, machines=0;
+  list.forEach(f=>{
+    if(!f || !f.id) return;
+    if(imported[f.id]) dupes++; else added++;
+    imported[f.id]={itemId:f.itemId, machineRecipe:f.machineRecipe||null};
+    if(f.machineRecipe) machines++;
+  });
+  impMsg={k:'ok', t:`${added} new pieces of furniture read`
+    + (dupes?`, ${dupes} already known`:'')
+    + `. ${machines} of them are machines with a recipe set.`};
+}
+function applyImport(){
+  const g=impSummary();
+  let touched=0, unknown=[];
+  Object.entries(g).forEach(([item, info])=>{
+    if(!recipeOf(item)){ unknown.push(item); return; }
+    const ex=S.prods.filter(p=>p.item===item).find(p=>!p.lock);
+    if(ex){ ex.byMachines=true; ex.machines=info.count; ex.owned=info.count; }
+    else S.prods.push({item, label:'', rate:0, byMachines:true,
+                       machines:info.count, owned:info.count, lock:false});
+    touched++;
+  });
+  save();
+  const txt=`${touched} production${touched===1?'':'s'} updated from the game.`
+    + (unknown.length?` Not in the data file, so skipped: ${unknown.join(', ')}.`:'');
+  impMsg={k: unknown.length?'err':'ok', t:txt};
+  msg={k: unknown.length?'err':'ok', t:txt};
+  tab='prods'; render();
+}
+function importView(){
+  const g=impSummary();
+  const keys=Object.keys(g).sort((a,b)=>nm(a).localeCompare(nm(b)));
+  const total=Object.keys(imported).length;
+  const machines=Object.values(imported).filter(f=>f.machineRecipe).length;
+
+  const ext=extSeen
+    ? panel('var(--mint)','Extension connected',
+        extBuildings?`${extBuildings} building${extBuildings===1?'':'s'} known`:'no buildings known yet',
+        `<div class="pb">
+          <p style="margin:0 0 12px">${extBuildings
+            ? 'The extension knows where your buildings are. One button re-reads them all &mdash; '
+              + 'Capital Rift does not even have to be open, as long as you are still signed in there.'
+            : 'Open Capital Rift and click through your buildings once. After that the extension knows '
+              + 'their addresses and can re-read them on its own.'}</p>
+          <div class="row">
+            <button class="btn mint" data-extrefresh="1" ${extBusy?'disabled':''}>
+              ${extBusy?'Reading…':'Refresh from the game'}</button>
+            ${Object.keys(imported).length?`<button class="btn mint" data-impapply="1">
+              Apply to productions</button>`:''}
+          </div>
+          ${extUpdated?`<p style="margin:12px 0 0;color:var(--faint);font-size:12.5px">
+            Last read ${esc(new Date(extUpdated).toLocaleString())}</p>`:''}
+          ${impMsg?`<div class="msg ${impMsg.k}">${esc(impMsg.t)}</div>`:''}
+        </div>`)
+    : panel('var(--sky)','Prefer it automatic?','optional Firefox extension',
+        `<div class="pb"><p style="margin:0">There is a small Firefox extension that watches the game while
+          you play and hands your machines over on its own - no copying, no pasting. Without it the manual
+          route below works just as well.</p></div>`);
+  const how=panel('var(--mint)','Read your machines from the game','one building at a time',
+    `<div class="pb">
+      <p style="margin:0 0 12px">The game only answers your own browser, so nothing here can fetch it for you.
+        Open the request yourself, copy the answer, paste it below.</p>
+      <ol style="margin:0 0 14px;padding-left:20px;color:var(--dim);line-height:1.9">
+        <li>Open Capital Rift and press F12, tab <strong>Network</strong>, filter <strong>Fetch/XHR</strong>.</li>
+        <li>Click one of your buildings so the game loads it.</li>
+        <li>Find the request <strong>building-furniture</strong>, right click it,
+            <strong>Copy &rarr; Copy response</strong>.</li>
+        <li>Paste it below and press <strong>Read response</strong>. Repeat for every building.</li>
+      </ol>
+      <p style="margin:0 0 14px;color:var(--faint);font-size:12.5px">Pasting the same building twice is harmless
+        &mdash; every piece of furniture carries an id, so it is counted once. Nothing is sent anywhere;
+        the text stays in this browser.</p>
+      <label>Paste the response</label>
+      <textarea id="impBox" placeholder='{ "furniture": [ ... ] }'></textarea>
+      <div class="row" style="margin-top:10px">
+        <button class="btn mint" data-impread="1">Read response</button>
+        ${total?`<button class="btn" data-impclear="1">Start over</button>`:''}
+      </div>
+      ${(!extSeen&&impMsg)?`<div class="msg ${impMsg.k}">${esc(impMsg.t)}</div>`:''}
+    </div>`);
+
+  if(!total) return ext+how;
+  const rows=keys.map(k=>{
+    const known=!!recipeOf(k);
+    const st=[...g[k].stations].map(s=>nm(s)).join(', ');
+    return `<tr><td>${known?withIcon(k):esc(k)+' <span class="tag">unknown</span>'}</td>
+      <td>${g[k].count}</td><td class="lft dim">${esc(st)}</td>
+      <td>${known?fmt(g[k].count*recipeOf(k)[4]):'&mdash;'}</td>
+      <td class="dim">${known?perH(g[k].count*recipeOf(k)[4]):'&mdash;'}</td></tr>`;}).join('');
+  const found=panel('var(--amber)','What was found',
+    `${total} pieces of furniture, ${machines} machines`,
+    `<div class="pb flush"><table><thead><tr><th>Recipe</th><th>Machines</th><th>Station</th>
+      <th>Output / min</th><th>Output / h</th></tr></thead><tbody>${rows}</tbody></table></div>
+     <div class="pb"><button class="btn mint" data-impapply="1">
+       Apply to productions</button></div>`,
+    'Applying sets each production to "by machines" with the count from the game, and fills Owned to match. '
+    + 'Locked productions are left alone.');
+  return ext+how+found;
 }
 
 /* ---------- get started ---------- */
@@ -938,7 +1060,7 @@ function render(){
   rebuild(); sidebar();
   const body = tab==='balance'?balanceView() : tab==='prods'?prodsView()
     : tab==='machines'?machinesView() : tab==='planner'?plannerView()
-    : tab==='guide'?guideView() : tab==='data'?dataView()
+    : tab==='guide'?guideView() : tab==='import'?importView() : tab==='data'?dataView()
     : tab==='settings'?settingsView() : tab==='about'?aboutView() : recipesView();
   document.getElementById('view').innerHTML = dialogView()+body;
   restoreFocus(f);
@@ -1000,6 +1122,16 @@ document.addEventListener('click', e=>{
     dlg=null; save(); render(); return; }
   const rf=q('[data-rfilter]');
   if(rf) return;
+  const er=q('[data-extrefresh]');
+  if(er){ extBusy=true; impMsg={k:'ok',t:'Asking the extension…'};
+    postToExt({source:'crfp-page', kind:'refresh'});
+    render(); return; }
+  const ir=q('[data-impread]');
+  if(ir){ addImport(document.getElementById('impBox').value); render(); return; }
+  const ic2=q('[data-impclear]');
+  if(ic2){ imported={}; impMsg=null; render(); return; }
+  const ia2=q('[data-impapply]');
+  if(ia2){ applyImport(); return; }
   const p1=q('[data-plan1]');
   if(p1){ const [it,amt]=p1.dataset.plan1.split(':');
     addRate(it, parseFloat(amt)); save();
@@ -1086,6 +1218,47 @@ document.addEventListener('change', e=>{
     render(); };
   fr.readAsText(f);
 });
+
+let extSeen=false;
+/* Firefox rejects "null" as a target origin, which is what location.origin is
+   when the file is opened straight from disk. The message never leaves this
+   window, so "*" is the honest choice and works in both cases. */
+function postToExt(msg){
+  try{ window.postMessage(msg, '*'); }catch(e){}
+}
+window.addEventListener('message', ev=>{
+  if(ev.source!==window) return;
+  const d=ev.data;
+  if(!d || d.source!=='crfp-extension' || d.kind!=='furniture') return;
+  extSeen=true;
+  extBuildings=d.buildings||0;
+  extUpdated=d.updated||null;
+  extBusy=false;
+  if(d.refresh){
+    impMsg={k: d.refresh.ok?'ok':'err', t:d.refresh.message||''};
+    let m=0;
+    imported={};
+    (d.furniture||[]).forEach(f=>{ if(f&&f.id){ imported[f.id]={itemId:f.itemId,
+      machineRecipe:f.machineRecipe||null}; if(f.machineRecipe) m++; } });
+    render(); return;
+  }
+  let added=0, machines=0;
+  (d.furniture||[]).forEach(f=>{
+    if(!f || !f.id) return;
+    if(!imported[f.id]) added++;
+    imported[f.id]={itemId:f.itemId, machineRecipe:f.machineRecipe||null};
+    if(f.machineRecipe) machines++;
+  });
+  if(added||machines){
+    impMsg={k:'ok', t:`Extension connected - ${machines} machines read from the game`
+      + (added?`, ${added} new`:'') + '.'};
+  } else if(!machines){
+    impMsg={k:'ok', t:'Extension connected, but nothing read yet. '
+      + 'Open Capital Rift and click through your buildings.'};
+  }
+  render();
+});
+postToExt({source:'crfp-page', kind:'request'});
 
 (async function init(){ await loadPack(); await load(); mode=opt('defaultMode'); rebuild();
   if(!S.prods.length) tab='guide';

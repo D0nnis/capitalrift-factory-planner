@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Capital Rift Factory Planner Bridge",
+  "version": "1.1",
+  "description": "Reads the machines in your own Capital Rift buildings and hands them to the Factory Planner. Read-only, never writes to the game.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "factory-planner-bridge@dennisgehring",
+      "strict_min_version": "115.0"
+    }
+  },
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://play.capitalrift.com/*",
+    "https://d0nnis.github.io/*"
+  ],
+  "background": { "scripts": ["background.js"] },
+  "content_scripts": [
+    {
+      "matches": ["https://play.capitalrift.com/*"],
+      "js": ["game.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    },
+    {
+      "matches": ["https://d0nnis.github.io/capitalrift-factory-planner/*"],
+      "js": ["dashboard.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    { "resources": ["hook.js"], "matches": ["https://play.capitalrift.com/*"] }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Capital Rift Factory Planner"
+  },
+  "icons": { "48": "icon48.png", "96": "icon96.png" }
+}
