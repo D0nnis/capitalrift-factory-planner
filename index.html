@@ -692,7 +692,10 @@ function impSummary(){
   const g={};
   Object.values(imported).forEach(f=>{
     if(!f.machineRecipe) return;
-    const k=f.machineRecipe;
+    // The game prefixes recipe ids with "m_" when a machine is building another
+    // machine (e.g. "m_furnace" for a Machine Shop set to build a Furnace).
+    // The product itself is just "furnace", so strip the prefix before matching.
+    const k = f.machineRecipe.startsWith('m_') ? f.machineRecipe.slice(2) : f.machineRecipe;
     (g[k] ||= {count:0, stations:new Set()});
     g[k].count++; g[k].stations.add(f.itemId);
   });
