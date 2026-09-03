@@ -1,6 +1,6 @@
 {
  "name": "Capital Rift wiki data",
- "version": "2026-08-16",
+ "version": "2026-09-03",
  "mode": "replace",
  "items": [
   {
@@ -144,6 +144,13 @@
    "soldFrom": "Display Platform"
   },
   {
+   "id": "bucket_wheel_excavator",
+   "name": "Bucket-Wheel Excavator",
+   "price": 30000.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
    "id": "buns",
    "name": "Buns",
    "price": 0.3,
@@ -212,6 +219,13 @@
    "price": 700.0,
    "category": "",
    "soldFrom": "Display Platform"
+  },
+  {
+   "id": "carpet",
+   "name": "Carpet",
+   "price": 9.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
   },
   {
    "id": "chair",
@@ -438,11 +452,39 @@
    "soldFrom": "Display Platform"
   },
   {
+   "id": "drill_head",
+   "name": "Drill Head",
+   "price": 145.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "drill_rig",
+   "name": "Drill Rig",
+   "price": 3650.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
    "id": "electronics_bench",
    "name": "Electronics Bench",
    "price": 1200.0,
    "category": "",
    "soldFrom": "Display Platform"
+  },
+  {
+   "id": "engine",
+   "name": "Engine",
+   "price": 360.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "engine_block",
+   "name": "Engine Block",
+   "price": 145.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
   },
   {
    "id": "fabric",
@@ -487,6 +529,13 @@
    "soldFrom": "Display Platform"
   },
   {
+   "id": "foundry",
+   "name": "Foundry",
+   "price": 1500.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
    "id": "franks",
    "name": "Beef Franks",
    "price": 0.55,
@@ -513,6 +562,13 @@
    "price": 180.0,
    "category": "",
    "soldFrom": "Display Platform"
+  },
+  {
+   "id": "gear",
+   "name": "Gear",
+   "price": 13.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
   },
   {
    "id": "glass",
@@ -543,6 +599,20 @@
    "soldFrom": "Shop Freezer"
   },
   {
+   "id": "hardwood",
+   "name": "Hardwood",
+   "price": 5.5,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "haul_truck",
+   "name": "Haul Truck",
+   "price": 13500.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
    "id": "hazelnut",
    "name": "Hazelnuts",
    "price": 0.25,
@@ -562,6 +632,27 @@
    "price": 1.63,
    "category": "",
    "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "hydraulic_cylinder",
+   "name": "Hydraulic Cylinder",
+   "price": 68.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "hydraulic_pump",
+   "name": "Hydraulic Pump",
+   "price": 105.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "hydraulics_shop",
+   "name": "Hydraulics Shop",
+   "price": 1100.0,
+   "category": "",
+   "soldFrom": "Display Platform"
   },
   {
    "id": "iron_bar",
@@ -602,6 +693,13 @@
    "id": "lantern",
    "name": "Lantern",
    "price": 48.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "latex",
+   "name": "Latex",
+   "price": 3.0,
    "category": "",
    "soldFrom": "Shop Shelf"
   },
@@ -669,6 +767,20 @@
    "soldFrom": "Display Platform"
   },
   {
+   "id": "marble",
+   "name": "Marble",
+   "price": 30.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "marble_tile",
+   "name": "Marble Tile",
+   "price": 18.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
    "id": "menu_stand",
    "name": "Menu Stand",
    "price": 45.0,
@@ -693,6 +805,20 @@
    "id": "mill",
    "name": "Mill",
    "price": 800.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "mining_barrow",
+   "name": "Mining Barrow",
+   "price": 520.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "mining_excavator",
+   "name": "Mining Excavator",
+   "price": 8400.0,
    "category": "",
    "soldFrom": "Display Platform"
   },
@@ -823,6 +949,13 @@
    "soldFrom": "Display Platform"
   },
   {
+   "id": "paper",
+   "name": "Paper",
+   "price": 2.5,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
    "id": "parking_spot",
    "name": "Parking Spot",
    "price": 45.0,
@@ -898,6 +1031,13 @@
    "price": 65.0,
    "category": "",
    "soldFrom": "Display Platform"
+  },
+  {
+   "id": "polished_concrete",
+   "name": "Polished Concrete",
+   "price": 5.5,
+   "category": "",
+   "soldFrom": "Shop Shelf"
   },
   {
    "id": "polysilicon",
@@ -989,6 +1129,20 @@
    "price": 60.0,
    "category": "",
    "soldFrom": "Display Platform"
+  },
+  {
+   "id": "rubber",
+   "name": "Rubber",
+   "price": 13.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "rubber_sapling",
+   "name": "Rubber Sapling",
+   "price": 4.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
   },
   {
    "id": "rug",
@@ -1087,6 +1241,13 @@
    "price": 46.0,
    "category": "",
    "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "skid_steer",
+   "name": "Skid-Steer Loader",
+   "price": 1500.0,
+   "category": "",
+   "soldFrom": "Display Platform"
   },
   {
    "id": "slippers",
@@ -1194,6 +1355,13 @@
    "soldFrom": "Display Platform"
   },
   {
+   "id": "stonecutter",
+   "name": "Stonecutter",
+   "price": 900.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
    "id": "stool",
    "name": "Stool",
    "price": 28.0,
@@ -1292,6 +1460,13 @@
    "soldFrom": "Shop Freezer"
   },
   {
+   "id": "tire",
+   "name": "Tire",
+   "price": 70.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
    "id": "tomato",
    "name": "Tomato",
    "price": 0.12,
@@ -1316,6 +1491,13 @@
    "id": "toy_blocks",
    "name": "Toy Blocks",
    "price": 16.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "tracks",
+   "name": "Crawler Tracks",
+   "price": 210.0,
    "category": "",
    "soldFrom": "Shop Shelf"
   },
@@ -1348,6 +1530,20 @@
    "soldFrom": "Shop Shelf"
   },
   {
+   "id": "vehicle_assembly_platform",
+   "name": "Vehicle Assembly Platform",
+   "price": 3800.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
+   "id": "vehicle_cab",
+   "name": "Vehicle Cab",
+   "price": 135.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
    "id": "vinegar",
    "name": "Vinegar",
    "price": 0.04,
@@ -1355,9 +1551,23 @@
    "soldFrom": "Shop Shelf"
   },
   {
+   "id": "vulcanizer",
+   "name": "Vulcanizer",
+   "price": 1150.0,
+   "category": "",
+   "soldFrom": "Display Platform"
+  },
+  {
    "id": "wall_clock",
    "name": "Wall Clock",
    "price": 78.0,
+   "category": "",
+   "soldFrom": "Shop Shelf"
+  },
+  {
+   "id": "wallpaper",
+   "name": "Wallpaper",
+   "price": 4.5,
    "category": "",
    "soldFrom": "Shop Shelf"
   },
@@ -3903,6 +4113,677 @@
     {
      "item": "wood",
      "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Cast gears",
+   "station": "foundry",
+   "product": "gear",
+   "batch": 2.0,
+   "perMin": 0.6,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Cast an engine block",
+   "station": "foundry",
+   "product": "engine_block",
+   "batch": 1.0,
+   "perMin": 0.1,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Cast crawler tracks",
+   "station": "foundry",
+   "product": "tracks",
+   "batch": 1.0,
+   "perMin": 0.1,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 8.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Forge a drill head",
+   "station": "foundry",
+   "product": "drill_head",
+   "batch": 1.0,
+   "perMin": 0.1,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 4.0
+    },
+    {
+     "item": "quartz",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Hone a hydraulic cylinder",
+   "station": "hydraulics_shop",
+   "product": "hydraulic_cylinder",
+   "batch": 1.0,
+   "perMin": 0.2,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 3.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a hydraulic pump",
+   "station": "hydraulics_shop",
+   "product": "hydraulic_pump",
+   "batch": 1.0,
+   "perMin": 0.15,
+   "inputs": [
+    {
+     "item": "gear",
+     "qty": 2.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 1.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Weave carpet",
+   "station": "loom",
+   "product": "carpet",
+   "batch": 2.0,
+   "perMin": 0.8,
+   "inputs": [
+    {
+     "item": "wool",
+     "qty": 3.0
+    }
+   ]
+  },
+  {
+   "name": "Build an engine",
+   "station": "machine_shop",
+   "product": "engine",
+   "batch": 1.0,
+   "perMin": 0.06,
+   "inputs": [
+    {
+     "item": "engine_block",
+     "qty": 1.0
+    },
+    {
+     "item": "gear",
+     "qty": 4.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 2.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 10.0
+    }
+   ]
+  },
+  {
+   "name": "Build a foundry",
+   "station": "machine_shop",
+   "product": "foundry",
+   "batch": 1.0,
+   "perMin": 0.012,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 20.0
+    },
+    {
+     "item": "concrete",
+     "qty": 30.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 10.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Build a vulcanizer",
+   "station": "machine_shop",
+   "product": "vulcanizer",
+   "batch": 1.0,
+   "perMin": 0.012,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 15.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 10.0
+    },
+    {
+     "item": "concrete",
+     "qty": 20.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 6.0
+    },
+    {
+     "item": "glass",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Build a hydraulics shop",
+   "station": "machine_shop",
+   "product": "hydraulics_shop",
+   "batch": 1.0,
+   "perMin": 0.012,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 12.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 12.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 10.0
+    },
+    {
+     "item": "copper_wire",
+     "qty": 10.0
+    },
+    {
+     "item": "glass",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Build a vehicle assembly platform",
+   "station": "machine_shop",
+   "product": "vehicle_assembly_platform",
+   "batch": 1.0,
+   "perMin": 0.006,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 30.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 20.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 20.0
+    },
+    {
+     "item": "hydraulic_cylinder",
+     "qty": 10.0
+    },
+    {
+     "item": "hydraulic_pump",
+     "qty": 4.0
+    },
+    {
+     "item": "gear",
+     "qty": 10.0
+    },
+    {
+     "item": "screen",
+     "qty": 1.0
+    },
+    {
+     "item": "circuit_board",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Build a stonecutter",
+   "station": "machine_shop",
+   "product": "stonecutter",
+   "batch": 1.0,
+   "perMin": 0.012,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 15.0
+    },
+    {
+     "item": "concrete",
+     "qty": 25.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Print wallpaper",
+   "station": "manufacturing_press",
+   "product": "wallpaper",
+   "batch": 3.0,
+   "perMin": 1.2,
+   "inputs": [
+    {
+     "item": "paper",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Glaze a vehicle cab",
+   "station": "metal_shop",
+   "product": "vehicle_cab",
+   "batch": 1.0,
+   "perMin": 0.12,
+   "inputs": [
+    {
+     "item": "steel_sheet",
+     "qty": 6.0
+    },
+    {
+     "item": "glass",
+     "qty": 4.0
+    },
+    {
+     "item": "fabric",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Pulp paper",
+   "station": "mill",
+   "product": "paper",
+   "batch": 4.0,
+   "perMin": 2.0,
+   "inputs": [
+    {
+     "item": "wood",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Mill hardwood boards",
+   "station": "sawmill",
+   "product": "hardwood",
+   "batch": 3.0,
+   "perMin": 1.5,
+   "inputs": [
+    {
+     "item": "wood",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Polish marble tile",
+   "station": "stonecutter",
+   "product": "marble_tile",
+   "batch": 2.0,
+   "perMin": 0.6,
+   "inputs": [
+    {
+     "item": "marble",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Seal polished concrete",
+   "station": "stonecutter",
+   "product": "polished_concrete",
+   "batch": 5.0,
+   "perMin": 2.5,
+   "inputs": [
+    {
+     "item": "concrete",
+     "qty": 2.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a mining barrow",
+   "station": "vehicle_assembly_platform",
+   "product": "mining_barrow",
+   "batch": 1.0,
+   "perMin": 0.04,
+   "inputs": [
+    {
+     "item": "battery",
+     "qty": 1.0
+    },
+    {
+     "item": "tire",
+     "qty": 1.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 2.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a skid-steer loader",
+   "station": "vehicle_assembly_platform",
+   "product": "skid_steer",
+   "batch": 1.0,
+   "perMin": 0.012,
+   "inputs": [
+    {
+     "item": "engine",
+     "qty": 1.0
+    },
+    {
+     "item": "tire",
+     "qty": 4.0
+    },
+    {
+     "item": "hydraulic_cylinder",
+     "qty": 2.0
+    },
+    {
+     "item": "hydraulic_pump",
+     "qty": 1.0
+    },
+    {
+     "item": "battery",
+     "qty": 1.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 6.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a drill rig",
+   "station": "vehicle_assembly_platform",
+   "product": "drill_rig",
+   "batch": 1.0,
+   "perMin": 0.006,
+   "inputs": [
+    {
+     "item": "engine",
+     "qty": 2.0
+    },
+    {
+     "item": "drill_head",
+     "qty": 2.0
+    },
+    {
+     "item": "hydraulic_cylinder",
+     "qty": 4.0
+    },
+    {
+     "item": "hydraulic_pump",
+     "qty": 2.0
+    },
+    {
+     "item": "tracks",
+     "qty": 2.0
+    },
+    {
+     "item": "vehicle_cab",
+     "qty": 1.0
+    },
+    {
+     "item": "battery",
+     "qty": 2.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 20.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 4.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a mining excavator",
+   "station": "vehicle_assembly_platform",
+   "product": "mining_excavator",
+   "batch": 1.0,
+   "perMin": 0.003,
+   "inputs": [
+    {
+     "item": "engine",
+     "qty": 2.0
+    },
+    {
+     "item": "tracks",
+     "qty": 2.0
+    },
+    {
+     "item": "hydraulic_cylinder",
+     "qty": 6.0
+    },
+    {
+     "item": "hydraulic_pump",
+     "qty": 3.0
+    },
+    {
+     "item": "vehicle_cab",
+     "qty": 1.0
+    },
+    {
+     "item": "battery",
+     "qty": 2.0
+    },
+    {
+     "item": "drill_head",
+     "qty": 1.0
+    },
+    {
+     "item": "screen",
+     "qty": 1.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 200.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 60.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 12.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a haul truck",
+   "station": "vehicle_assembly_platform",
+   "product": "haul_truck",
+   "batch": 1.0,
+   "perMin": 0.0015,
+   "inputs": [
+    {
+     "item": "tire",
+     "qty": 6.0
+    },
+    {
+     "item": "engine",
+     "qty": 2.0
+    },
+    {
+     "item": "vehicle_cab",
+     "qty": 1.0
+    },
+    {
+     "item": "hydraulic_cylinder",
+     "qty": 4.0
+    },
+    {
+     "item": "hydraulic_pump",
+     "qty": 2.0
+    },
+    {
+     "item": "battery",
+     "qty": 2.0
+    },
+    {
+     "item": "screen",
+     "qty": 1.0
+    },
+    {
+     "item": "gear",
+     "qty": 40.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 300.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 180.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 20.0
+    }
+   ]
+  },
+  {
+   "name": "Assemble a bucket-wheel excavator",
+   "station": "vehicle_assembly_platform",
+   "product": "bucket_wheel_excavator",
+   "batch": 1.0,
+   "perMin": 0.0012,
+   "inputs": [
+    {
+     "item": "engine",
+     "qty": 8.0
+    },
+    {
+     "item": "tracks",
+     "qty": 6.0
+    },
+    {
+     "item": "hydraulic_cylinder",
+     "qty": 16.0
+    },
+    {
+     "item": "hydraulic_pump",
+     "qty": 8.0
+    },
+    {
+     "item": "drill_head",
+     "qty": 6.0
+    },
+    {
+     "item": "vehicle_cab",
+     "qty": 2.0
+    },
+    {
+     "item": "computer",
+     "qty": 1.0
+    },
+    {
+     "item": "battery",
+     "qty": 4.0
+    },
+    {
+     "item": "gear",
+     "qty": 80.0
+    },
+    {
+     "item": "steel_sheet",
+     "qty": 500.0
+    },
+    {
+     "item": "iron_bar",
+     "qty": 300.0
+    },
+    {
+     "item": "machine_parts",
+     "qty": 40.0
+    }
+   ]
+  },
+  {
+   "name": "Vulcanize rubber",
+   "station": "vulcanizer",
+   "product": "rubber",
+   "batch": 2.0,
+   "perMin": 0.5,
+   "inputs": [
+    {
+     "item": "latex",
+     "qty": 4.0
+    },
+    {
+     "item": "quartz",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Mold a tire",
+   "station": "vulcanizer",
+   "product": "tire",
+   "batch": 1.0,
+   "perMin": 0.15,
+   "inputs": [
+    {
+     "item": "rubber",
+     "qty": 3.0
+    },
+    {
+     "item": "wire",
+     "qty": 4.0
+    },
+    {
+     "item": "fabric",
+     "qty": 1.0
     }
    ]
   }
