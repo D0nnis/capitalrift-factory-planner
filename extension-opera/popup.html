@@ -1,0 +1,38 @@
+<!doctype html><meta charset="utf-8">
+<style>
+ body{margin:0;width:310px;font:13px system-ui,sans-serif;background:#181818;color:#e9e9e7}
+ header{padding:12px 14px;border-bottom:1px solid #323232;font-weight:600;letter-spacing:.08em;
+        text-transform:uppercase;font-size:11px;color:#35dfa1}
+ .b{padding:14px}
+ .n{font-family:ui-monospace,monospace;font-size:22px}
+ .k{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#6a6a66}
+ .row{display:flex;gap:20px;margin-bottom:14px}
+ button{width:100%;margin-top:8px;background:#242424;color:#e9e9e7;border:1px solid #3d3d3d;
+        border-radius:6px;padding:9px;cursor:pointer;font:inherit}
+ button:hover{border-color:#8d8d88}
+ button:disabled{opacity:.5;cursor:default}
+ .mint{color:#35dfa1;border-color:#1d7a5a}
+ .dim{color:#8d8d88;font-size:11.5px;margin-top:10px;line-height:1.5}
+ details{margin-top:14px;border-top:1px solid #323232;padding-top:10px}
+ summary{cursor:pointer;color:#8d8d88;font-size:11.5px}
+ input{width:100%;margin-top:8px;background:#141414;color:#e9e9e7;border:1px solid #3d3d3d;
+       border-radius:6px;padding:8px;font:12px ui-monospace,monospace;box-sizing:border-box}
+</style>
+<header>Capital Rift Factory Planner</header>
+<div class="b">
+  <div class="row">
+    <div><div class="k">Machines</div><div class="n" id="m">0</div></div>
+    <div><div class="k">Buildings</div><div class="n" id="bl">0</div></div>
+  </div>
+  <button class="mint" id="refresh">Read my factory</button>
+  <button id="open">Open the planner</button>
+  <div class="dim" id="upd">Nothing read yet. Sign in to Capital Rift, then press the button.</div>
+  <details>
+    <summary>Player id</summary>
+    <div class="dim" id="pid">not detected yet</div>
+    <input id="manual" placeholder="paste your player id to override">
+    <button id="save">Save id</button>
+    <button id="clear">Forget everything</button>
+  </details>
+</div>
+<script src="popup.js"></script>
