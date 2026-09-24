@@ -1,6 +1,6 @@
 {
  "name": "Capital Rift wiki data",
- "version": "2026-09-03",
+ "version": "2026-09-24",
  "mode": "replace",
  "items": [
   {
@@ -3366,6 +3366,19 @@
    "product": "wire",
    "batch": 12.0,
    "perMin": 6.0,
+   "inputs": [
+    {
+     "item": "iron_bar",
+     "qty": 1.0
+    }
+   ]
+  },
+  {
+   "name": "Rebar",
+   "station": "manufacturing_press",
+   "product": "rebar",
+   "batch": 4.0,
+   "perMin": 2.0,
    "inputs": [
     {
      "item": "iron_bar",
